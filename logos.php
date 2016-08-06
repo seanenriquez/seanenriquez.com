@@ -12,17 +12,7 @@
 <body>
         <?php include('includes/navbar.php'); ?>
 <div id="#top" class="container">
-        <div class="promo">
-            <div class="promo-block-primal">
-
-                <div class="promo-block-overlay">
-                    
-                </div>
-                <h1 class="title"></h1>
-
-            </div>  
-
-        </div>
+      
     <div class="work">
         <div class="display">
             <h1>Logos</h1>

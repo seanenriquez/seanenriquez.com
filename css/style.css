@@ -11,7 +11,7 @@ h1 {
 }
 
 a:link{
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
 small {
@@ -408,7 +408,8 @@ footer {
 }
 
 .display h1 {
-	padding-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 25px;
 }
 .display .row {
 	padding: 10px;
