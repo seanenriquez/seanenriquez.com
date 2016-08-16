@@ -1,32 +1,20 @@
 <?php
-$field_name = $_POST['cf_name'];
-$field_email = $_POST['cf_email'];
-$field_message = $_POST['cf_message'];
+if(isset($_POST['submit']) && !empty($_POST['submit'])){
+  if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])){
+    //your site secret key
+    $secret = '6Lf0WCYTAAAAAO5jTFu4QIlqu2Z9_EJmN7Npor3C';
+    //get verify response data
+    $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
+    $responseData = json_decode($verifyResponse);
+    if($responseData->success){
+        //contact form submission code goes here
 
-$mail_to = 'seanenriquez@gmail.com';
-$subject = 'Message from a site visitor '.$field_name;
-
-$body_message = 'From: '.$field_name."\n";
-$body_message .= 'E-mail: '.$field_email."\n";
-$body_message .= 'Message: '.$field_message;
-
-$headers = 'From: '.$field_email."\r\n";
-$headers .= 'Reply-To: '.$field_email."\r\n";
-
-$mail_status = mail($mail_to, $subject, $body_message, $headers);
-
-if ($mail_status) { ?>
-    <script language="javascript" type="text/javascript">
-        alert('Thank you for the message. I will contact you shortly.');
-        window.location = 'index.php#contact';
-    </script>
-<?php
-}
-else { ?>
-    <script language="javascript" type="text/javascript">
-        alert('Message failed. Please include a valid email address, name, along with a message. Or send an email directly to Seanenriquez@gmail.com');
-        window.location = 'index.php#contact';
-    </script>
-<?php
+        $succMsg = 'Your contact request have submitted successfully.';
+    }else{
+        $errMsg = 'Robot verification failed, please try again.';
+    }
+  }else{
+    $errMsg = 'Please click on the reCAPTCHA box.';
+  }
 }
 ?>

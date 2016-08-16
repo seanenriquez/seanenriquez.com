@@ -4,7 +4,7 @@
  <!-- Contact Form JavaScript -->
     <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. <-->
 <!-- Google reCaptha script -->
-<script src='https://www.google.com/recaptcha/api.js'></script>
+
 
 
 <script>
@@ -20,3 +20,4 @@
 });
 
 </script>
+

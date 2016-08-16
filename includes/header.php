@@ -13,6 +13,11 @@
     <!-- Custom Fonts -->
     <link href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300|Montserrat' rel='stylesheet' type='text/css'>
+    
+    <!-- Google reCaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

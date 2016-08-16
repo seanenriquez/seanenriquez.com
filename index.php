@@ -70,7 +70,7 @@
         </div>
     -->
             <div class="work-title">
-            <h1> Visual Work </h1>
+            <h1> Visual Work & Branding</h1>
         </div>
 
         <div class="row">
@@ -116,40 +116,7 @@
         </div>
     -->
 
-
-
     </div>
-
-    <div id="contact" class="contact">
-        <h1>Get in Touch</h1>
-                 <form action="contact.php" target="_parent" method="post">
-
-                            <input class="msginfo" type="text" placeholder="Name" name="cf_name">
-                            <input class="msginfo" type="text" placeholder="Email" name="cf_email">
-                            <br>
-                            <textarea placeholder="Message" name="cf_message"></textarea><br>
-                            <div class="g-recaptcha" data-sitekey="6Lf0WCYTAAAAAHdcu6Yz6ON5w5luntMYNrL2FCyD"></div>
-                            <input type="submit" class="sendbtn" value="Send">
-                    </form>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <a href="mailto:seanenriquez@gmail.com?subject=Howdy!">Seanenriquez@gmail.com</a> 
-        <br>
-        <small>Located in Melbourne Florida</small>
-        
-              
-
-
-
-    </div>
-
-
-
-
 </div>
     
 

@@ -33,7 +33,7 @@
 				<div>
 					<a href="#close" title="Close" class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
 					<a href="index.php"><p>Work</p></a>
-					<a href="index.php#contact"><p>Contact</p></a>
+					<a href="contactme.php"><p>Contact</p></a>
 				</div>
 				
 			</div>
