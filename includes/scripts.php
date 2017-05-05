@@ -1,23 +1,32 @@
 <!-- jQuery -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
- <!-- Contact Form JavaScript -->
-    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. <-->
-<!-- Google reCaptha script -->
 
-
-
-<script>
+<script type="text/javascript">
 	
 	jQuery(window).scroll(function(){
     var fromTopPx = 600; // distance to trigger
     var scrolledFromtop = jQuery(window).scrollTop();
     if(scrolledFromtop > fromTopPx){
-        jQuery('#logo, .bars').addClass('scrolled');
+        jQuery('#logo,.nav-icon span').addClass('scrolled');
     }else{
-        jQuery('#logo, .bars').removeClass('scrolled');
+        jQuery('#logo,.nav-icon span').removeClass('scrolled');
     }
 });
 
-</script>
+    $(document).ready(function(){
+    $('.nav-icon,.modalContent a').click(function(){
+        $(this).toggleClass('open');
+        $('#openModal').toggle()
+    });
 
+    $('.block-1').hover(function(){
+        console.log("WRoRKSD!")
+        $(this).find('.text-overlay').fadeToggle( "fast", "swing" );
+        //$('#openModal').toggle()
+
+    });
+});
+
+</script>
+<!-- Nav Modal-->

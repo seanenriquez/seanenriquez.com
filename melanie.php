@@ -25,14 +25,14 @@
             <div class="row">
                 <div class="center">
                     <a target="_blank" href="http://dev.webwarephpdevelopment.com/">
-                    <img class="img-block" src="img\Melanie\mel_1.png" alt="">
+                    <img class="img-block" src="img\Melanie\mel_1.jpg" alt="">
                     </a>
                 </div>
             </div>
             <div class="row">
                 <div class="center">
                     <a target="_blank" href="http://dev.webwarephpdevelopment.com/">
-                    <img class="img-block" src="img\Melanie\mel_2.png" alt="">
+                    <img class="img-block" src="img\Melanie\mel_2.jpg" alt="">
                     </a>
                 </div>
             </div>

@@ -25,17 +25,20 @@
 		</div>
 
 		<div class="controls">
-			<a href="#openModal">
-				<i class="fa fa-bars bars" aria-hidden="true"></i>
-			</a>
+			<div id="nav-id">
+				<div class="nav-icon">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				  <span></span>
+		  		</div>
+			</div>
 
 			<div id="openModal" class="modalDialog">
-				<div>
-					<a href="#close" title="Close" class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
-					<a href="index.php"><p>Work</p></a>
+				<div class="modalContent">
+					<a href="index.php#work"><p>Work</p></a>
 					<a href="contactme.php"><p>Contact</p></a>
 				</div>
-				
 			</div>
 			    
 			
