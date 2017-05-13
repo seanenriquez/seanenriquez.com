@@ -57,7 +57,6 @@ p {
 	left:0;
 	width: 100%;
 	margin:0 auto;
-	background-color: #FFF0A5;
 }
 
 .burgerBlock{
@@ -283,195 +282,218 @@ p {
 /* End footer */
 
 /* Burger */
-
 .bottombun {
-   -webkit-animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 0s, idleMove 3000ms ease-in-out 5s infinite;
-   animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 0s, idleMove 3000ms ease-in-out 5s infinite;
+  -webkit-animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 0s, idleMove 3000ms ease-in-out 5s infinite;
+  animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 0s, idleMove 3000ms ease-in-out 5s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .patty {
-  animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1s, idleMove 5000ms ease-in-out 5s infinite;
+  -webkit-animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1s, idleMove 5000ms ease-in-out 5s infinite;
+          animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1s, idleMove 5000ms ease-in-out 5s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .cheese {
-  animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1.5s, idleMove 4200ms ease-in-out 6s infinite;
+  -webkit-animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1.5s, idleMove 4200ms ease-in-out 6s infinite;
+          animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1.5s, idleMove 4200ms ease-in-out 6s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .lettuce {
-  animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2s, idleMove 4000ms ease-in-out 5s infinite;
+  -webkit-animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2s, idleMove 4000ms ease-in-out 5s infinite;
+          animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2s, idleMove 4000ms ease-in-out 5s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .tomato {
-  animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2.5s, idleMove 4500ms ease-in-out 6s infinite;
+  -webkit-animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2.5s, idleMove 4500ms ease-in-out 6s infinite;
+          animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2.5s, idleMove 4500ms ease-in-out 6s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .topbun {
-   animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 3s, idleMove 3500ms ease-in-out 6s infinite;
+  -webkit-animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 3s, idleMove 3500ms ease-in-out 6s infinite;
+          animation: bounceIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 3s, idleMove 3500ms ease-in-out 6s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 /* End Burger */
-
 /* Hotdog */
 .hotdogbun {
-  animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 0ms, idleJump 4500ms ease-in-out 5s infinite;
+  -webkit-animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 0ms, idleJump 4500ms ease-in-out 5s infinite;
+          animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 0ms, idleJump 4500ms ease-in-out 5s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-} 
+  animation-fill-mode: forwards;
+}
+
 .dog {
-  animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 800ms, idleJump 4000ms ease-in-out 6s infinite;
+  -webkit-animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 800ms, idleJump 4000ms ease-in-out 6s infinite;
+          animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 800ms, idleJump 4000ms ease-in-out 6s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
-
-.mustard{
-  animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1600ms, idleJump 3000ms ease-in-out 4s infinite;
+.mustard {
+  -webkit-animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1600ms, idleJump 3000ms ease-in-out 4s infinite;
+          animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1600ms, idleJump 3000ms ease-in-out 4s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
+
 .onion {
-  animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2000ms, idleJump 2000ms ease-in-out 4s infinite;
+  -webkit-animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2000ms, idleJump 2000ms ease-in-out 4s infinite;
+          animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2000ms, idleJump 2000ms ease-in-out 4s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
+
 .relish {
-  animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2500ms, idleJump 3500ms ease-in-out 4s infinite;
+  -webkit-animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2500ms, idleJump 3500ms ease-in-out 4s infinite;
+          animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2500ms, idleJump 3500ms ease-in-out 4s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 /* End Hotdog */
-
 /* Fried Shrimp */
-
 .shrimp1 {
   margin: 0 auto;
-  animation: bounceIn 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1, idleSpin 3000ms ease-in-out 3s infinite;
+  -webkit-animation: bounceIn 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1, idleSpin 3000ms ease-in-out 3s infinite;
+          animation: bounceIn 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1, idleSpin 3000ms ease-in-out 3s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .shrimp2 {
   margin: 0 auto;
-  animation: bounceIn 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1, idleSpin 4000ms ease-in-out 4s infinite;
+  -webkit-animation: bounceIn 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1, idleSpin 4000ms ease-in-out 4s infinite;
+          animation: bounceIn 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1, idleSpin 4000ms ease-in-out 4s infinite;
   opacity: 0;
   -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+  transform-origin: 100%;
   -webkit-animation-direction: forwards;
-          animation-direction: forwards;
+  animation-direction: forwards;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 /* End Fried Shrimp */
-
 /* Philly */
-
-.phillyBunFront{
-  animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 300ms, idleJump 3500ms ease-in-out 2s infinite;
+.phillyBunFront {
+  -webkit-animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 300ms, idleJump 3500ms ease-in-out 2s infinite;
+          animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 300ms, idleJump 3500ms ease-in-out 2s infinite;
   opacity: 0;
+  -webkit-transform-origin: 100%;
   transform-origin: 100%;
+  -webkit-animation-direction: forwards;
   animation-direction: forwards;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 
 .phillyBunBack {
-  animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1000ms, idleJump 2500ms ease-in-out 4s infinite;
+  -webkit-animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1000ms, idleJump 2500ms ease-in-out 4s infinite;
+          animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1000ms, idleJump 2500ms ease-in-out 4s infinite;
   opacity: 0;
+  -webkit-transform-origin: 100%;
   transform-origin: 100%;
+  -webkit-animation-direction: forwards;
   animation-direction: forwards;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 
 .phillyBase {
-  animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1500ms, idleJump 4500ms ease-in-out 5s infinite;
+  -webkit-animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1500ms, idleJump 4500ms ease-in-out 5s infinite;
+          animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 1500ms, idleJump 4500ms ease-in-out 5s infinite;
   opacity: 0;
+  -webkit-transform-origin: 100%;
   transform-origin: 100%;
+  -webkit-animation-direction: forwards;
   animation-direction: forwards;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
-
 
 .phillyCheese {
-  animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2000ms, idleJump 3000ms ease-in-out 3s infinite;
+  -webkit-animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2000ms, idleJump 3000ms ease-in-out 3s infinite;
+          animation: slideIn 1300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 2000ms, idleJump 3000ms ease-in-out 3s infinite;
   opacity: 0;
+  -webkit-transform-origin: 100%;
   transform-origin: 100%;
+  -webkit-animation-direction: forwards;
   animation-direction: forwards;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
+
 
 
 /* End Philly */
